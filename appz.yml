@@ -1,0 +1,18 @@
+    app:
+        name: yolopan
+        code: YOLOPAN
+        notify: aramanan@ecloudcontrol.com
+        
+    build:
+        version: 0.1
+        env: DEV
+        build_file: none
+        output_files: output/*.zip
+        image_template: yolopan-0.1
+        
+    deploy:
+        context: aryam21/DEV
+        replicas: 1
+        port:
+        - 8009
+        revision : 0
