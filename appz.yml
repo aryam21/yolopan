@@ -15,4 +15,4 @@
         replicas: 1
         port:
         - 8009
-        revision : 2
+        revision : 3
